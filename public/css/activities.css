@@ -1,0 +1,17 @@
+@import 'colors.css';
+
+main.activities-container {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+    background-color: var(--light-cyan);
+
+    .activity {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        aspect-ratio: 1/1;
+        border: 2px solid var(--mimi-pink);
+    }
+}
