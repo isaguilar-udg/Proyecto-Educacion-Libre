@@ -1,11 +1,17 @@
 @import 'colors.css';
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Dosis&family=Sacramento&display=swap');
+
 
 main.activities-container {
     display: grid;
     grid-template-columns: repeat(4, minmax(250px, 1fr));
-    gap: 1rem;
-    padding: 1rem;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
     background-color: var(--light-cyan);
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+
 
     .activity {
         display: flex;
@@ -13,5 +19,9 @@ main.activities-container {
         justify-content: center;
         aspect-ratio: 1/1;
         border: 2px solid var(--mimi-pink);
+        border-radius: 1rem;
+        font-family:"Amatic SC";
+        font-size: 2rem;
+        font-weight: bold;
     }
 }
