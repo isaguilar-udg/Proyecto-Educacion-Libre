@@ -1,0 +1,29 @@
+@import 'colors.css';
+
+main.games-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 23rem);
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: var(--light-cyan);
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+
+    img {
+        width: 300px;
+        aspect-ratio: 1/1.25;
+        border-radius: 1rem;
+        transition: all;
+        transition-duration: 0.1s;
+    }
+
+    img:hover{
+        transform: scale(1.2);
+    }
+
+
+}
+
+       
+    

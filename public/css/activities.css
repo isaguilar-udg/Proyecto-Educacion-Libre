@@ -26,6 +26,12 @@ main.activities-container {
             width: 300px;
             aspect-ratio: 1/0.75;
             mix-blend-mode: multiply;
+            transition: all;
+            transition-duration: 0.1s;
+        }
+        
+        img:hover{
+            transform: scale(1.2);
         }
     }
 }
