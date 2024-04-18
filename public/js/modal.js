@@ -6,9 +6,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
     var span = document.getElementsByClassName("close")[0];
 
-    button.addEventListener("click", () => {
-        modal.style.display = "block";
-    });
+    if (button) {
+        button.addEventListener("click", () => {
+            modal.style.display = "block";
+        });
+    }
 
     anchor.addEventListener("click", (event) => {
         event.preventDefault();

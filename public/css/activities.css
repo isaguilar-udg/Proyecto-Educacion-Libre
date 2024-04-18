@@ -1,6 +1,4 @@
 @import 'colors.css';
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Dosis&family=Sacramento&display=swap');
-
 
 main.activities-container {
     display: grid;
@@ -20,11 +18,11 @@ main.activities-container {
         aspect-ratio: 1/1;
         border: 2px solid var(--mimi-pink);
         border-radius: 1rem;
-        font-family:"Amatic SC";
+        font-family: "Amatic SC";
         font-size: 2rem;
         font-weight: bold;
 
-        img{
+        img {
             width: 300px;
             aspect-ratio: 1/0.75;
             mix-blend-mode: multiply;
