@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Dosis&family=Sacramento&display=swap');
 @import 'colors.css';
 
 * {
@@ -146,6 +147,7 @@ button.btn-main {
     -webkit-animation-duration: 0.5s;
     animation-name: animarsuperior;
     animation-duration: 0.5s;
+    border-radius: 1rem;
 
     .login-form {
         display: flex;

@@ -1,0 +1,23 @@
+.videos-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem 0;
+    background-color: var(--light-cyan);
+    border-radius: 1rem;
+
+    .youtube-embed {
+        font-family: "Amatic SC";
+        font-size: 1.5rem;
+
+        h3 {
+            margin: 0;
+        }
+
+        iframe {
+            width: 630px;
+        }
+    }
+}

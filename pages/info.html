@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/public/css/main.css">
     <link rel="stylesheet" href="/public/css/info.css">
+    <script src="/public/js/modal.js"></script>
     <title>Educacion Libre</title>
 </head>
 
@@ -21,7 +22,7 @@
                     <li><a href="/pages/activities.html" class="main-header__nav__a">Actividades</a></li>
                     <li><a href="/pages/games.html" class="main-header__nav__a">Juegos</a></li>
                     <li><a href="/pages/videos.html" class="main-header__nav__a">Videos</a></li>
-                    <li><a href="" class="main-header__nav__a">Iniciar</a></li>
+                    <li><a href="" class="main-header__nav__a" id="openModal2">Iniciar</a></li>
                 </ul>
             </div>
         </nav>
@@ -62,6 +63,24 @@
             </div>
         </section>
     </main>
+    <div id="modal" class="modal">
+        <div class="modal-container">
+            <span class="close">&times;</span>
+            <h2>Ingresar/Registro</h2>
+            <form class="login-form">
+                <img src="/public/images/login.png" alt="Login logo">
+                <div class="form-control">
+                    <label for="user">Usuario: </label>
+                    <input type="text" name="user" id="user" />
+                </div>
+                <div class="form-control">
+                    <label for="password">Password: </label>
+                    <input type="password" name="password" id="password" />
+                </div>
+                <button class="btn-main">Ingresar</button>
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>
