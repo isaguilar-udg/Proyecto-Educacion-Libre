@@ -14,7 +14,8 @@ Los recursos utilizados fueron:
 
 Una vez instalado 'Git' en tu computadora, puedes clonar el repositorio (repo) alojado en 'GitHub' usando el siguiente comando:
 
-`git clone https://github.com/isaguilar-udg/Proyecto-Educacion-Libre.git`
+```bash
+git clone https://github.com/isaguilar-udg/Proyecto-Educacion-Libre.git```
 
 1. Abre Visual Studio Code, y abre la carpeta donde esta alojado el proyecto.
 2. En Visual Studio Code, dar click en **Go Live** en la parte inferior deracha.
