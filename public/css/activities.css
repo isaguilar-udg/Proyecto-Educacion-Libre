@@ -27,11 +27,12 @@ main.activities-container {
             aspect-ratio: 1/0.75;
             mix-blend-mode: multiply;
             transition: all;
-            transition-duration: 0.1s;
+            transition-duration: 0.3s;
+            transition-timing-function: ease-in
         }
-        
-        img:hover{
-            transform: scale(1.2);
+
+        img:hover {
+            transform: scale(1.1);
         }
     }
 }

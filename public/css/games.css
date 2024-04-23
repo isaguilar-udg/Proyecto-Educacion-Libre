@@ -15,15 +15,13 @@ main.games-container {
         aspect-ratio: 1/1.25;
         border-radius: 1rem;
         transition: all;
-        transition-duration: 0.1s;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-in-out;
     }
 
-    img:hover{
-        transform: scale(1.2);
+    img:hover {
+        transform: scale(1.1);
     }
 
 
 }
-
-       
-    
