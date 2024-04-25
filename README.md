@@ -1,8 +1,14 @@
 # Proyecto EduLibre [HTML | JavaScript | CSS]
 
-## Herramientas
+## Descripcion
+El proyecto fue concebido para la clase 'Proyecto II'.
+Como parte de la Licenciatura en Desarrollo de Sistemas Web de la Universidad de Guadalajara, en su modalidad virtual. 
+Elaborado por: 
+- Isela Aguilar
+- Marcela López
+- Mauricio Ocampo
 
-El proyecto fue concebido para la clase '<Nombre de la clase>'.
+## Herramientas
 Los recursos utilizados fueron:
 
 - Git
